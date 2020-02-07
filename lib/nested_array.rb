@@ -37,22 +37,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  assembled_matrix = [
-    [
-    "Grapefruit",
-    "Pineapple",
-    "Oranges",
-    "Watermelon",
-    "Eggplant"
-    ], 
-    [
-    "Strawberries",
-    "Potatoes",
-    "Grapes",
-    "Avocadoes",
-    "Asparagus"
-    ]
-  ]
+  
   sorted_matrix = assembled_matrix.sort 
   
   sorted_matrix
