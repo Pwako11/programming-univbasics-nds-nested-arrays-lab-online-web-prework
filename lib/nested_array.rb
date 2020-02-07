@@ -54,6 +54,7 @@ def sorted_matrix
     ]
   ]
   sorted_matrix = assembled_matrix.sort 
+  
   sorted_matrix
 end
 
