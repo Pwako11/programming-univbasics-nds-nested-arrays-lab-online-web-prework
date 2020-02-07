@@ -44,11 +44,14 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+  assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
   row = 1 
   column = 1 
   
-  matrix[row][column]
+  assembled_matrix[row][column]
+  sorted_matrix[row][column]
+  
 end
 
 def matrix_update(matrix, row, column, new_value)
