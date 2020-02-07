@@ -46,11 +46,13 @@ end
 def matrix_lookup(matrix, row, column)
   
   assembled_matrix = [
-    [CONVENTIONAL_PRODUCE, 
-    ORGANIC_PRODUCE]
+    CONVENTIONAL_PRODUCE, 
+    ORGANIC_PRODUCE
   ]
+  
   sorted_matrix = [
-    [ORGANIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort]]
+    ORGANIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort
+  ]
   row = 1 
   column = 1 
   
