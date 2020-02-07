@@ -37,7 +37,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  sorted_matrix = [
+  ssembled_matrix = [
     [
     "Grapefruit",
     "Pineapple",
