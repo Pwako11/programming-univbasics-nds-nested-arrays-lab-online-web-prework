@@ -57,8 +57,8 @@ def matrix_lookup(matrix, row, column)
   row = 1 
   column = 1 
   
-  assembled_matrix[1][1]
-  sorted_matrix[1][1]
+  assembled_matrix[row][column]
+  sorted_matrix[row][column]
   
 end
 
